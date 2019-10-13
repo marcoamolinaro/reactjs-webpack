@@ -38,4 +38,10 @@ Aula 3
     . Exportar método sum que irá somar dois valores
     . Importar o método em src/index.js
 
+Aula 4
+- Criando uma aplicação em React
+    . Instalar as dependências React e ReactDOM
+        npm install --save react react-dom
+        npm install create-react-class --save
+    . Criar um componente em src/app.js
 
