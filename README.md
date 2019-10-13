@@ -31,4 +31,11 @@ Aula 2
             sudo npm install -g webpack-dev-server
             npm i --save-dev webpack-dev-server
 
+Aula 3
+- Modularizando uma aplicação
+    . Criar um novo arquivo em src/app.js
+    . Entender o require e module.exports do commonJS
+    . Exportar método sum que irá somar dois valores
+    . Importar o método em src/index.js
+
 
