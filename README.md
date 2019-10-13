@@ -19,5 +19,16 @@ npm install save --webpack
             sudo npm i -g webpack-cli
             npm install --save-dev webpac
     . Criar o arquivo index.html e adicional o bundle
-    
+
+Aula 2
+- usando o server do webpack
+    - Instalar a depedência para o server - webpack-dev-server
+        npm i --save-dev webpack-dev-server
+    - Adicionar o publicPach no webpack.config
+    - Passar o caminho correto do index.html
+    - Subir o server de desenvolvimento
+        instalar o webpack-server
+            sudo npm install -g webpack-dev-server
+            npm i --save-dev webpack-dev-server
+
 
