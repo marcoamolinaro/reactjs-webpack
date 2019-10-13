@@ -45,3 +45,29 @@ Aula 4
         npm install create-react-class --save
     . Criar um componente em src/app.js
 
+Aula 5
+- Modularizando a aplicação
+    - Instalação das dependências
+        . Instalar o Babel - babeljs.io
+            npm i --save-dev babel-core bable-loader babel-preset-es2015 babel-preset-stage-0
+        . Configuração do Babel
+            . Criar arquivo .babelrc
+                - é um arquivo json com uma entrada "presets": ["es2015", "stage-0"]
+        . Atualizar o webpack.config
+            Para a versão que estou usando o trecho do config fica assim:
+                resolveLoader: {
+                    moduleExtensions: ['-loader']
+                },
+                module: {
+                    rules: [{
+                        test: /\.js$/,
+                        exclude: /node_modules/,
+                        include: /src/,
+                    }]
+                }
+        . Atualiação do projeto
+            . Atualizar src/app.js usando o export do ES02015
+            . Atualizar o src/index.js usando o import
+            . Utilizar import com shorthand notation para o método render do ReactDOM
+
+            

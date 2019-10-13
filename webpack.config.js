@@ -8,5 +8,15 @@ module.exports = {
         path: path.join(__dirname, 'dist'),
         filename: 'bundle.js',
         publicPath: '/dist/'
+    },
+    resolveLoader: {
+        moduleExtensions: ['-loader']
+      },
+    module: {
+        rules: [{
+            test: /\.js$/,
+            exclude: /node_modules/,
+            include: /src/,
+        }]
     }
 }
